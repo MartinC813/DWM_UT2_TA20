@@ -1,0 +1,17 @@
+<!DOCTYPE html><html>
+    <head>
+    </head>
+    <body>
+        <img id="imagen"  style: width="1000px" height="500px" src="johnny.jpg" alt="">
+        <script>
+            const imagen = document.getElementById("imagen");
+
+            imagen.addEventListener("mouseover", () =>{
+                imagen.src = "johnWick.jpg";
+            })
+            imagen.addEventListener("mouseout", () =>{
+                imagen.src = "johnny.jpg";
+            })
+        </script>
+    </body>
+</html>
